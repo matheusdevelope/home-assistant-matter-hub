@@ -67,7 +67,7 @@ If the automatic 25% calculation is too low or too high, override it:
 **Standalone Docker:**
 
 ```bash
-docker run -e NODE_OPTIONS="--max-old-space-size=768" ghcr.io/riddix/home-assistant-matter-hub
+docker run -e NODE_OPTIONS="--max-old-space-size=768" matheusdevelope/home-assistant-matter-hub
 ```
 
 **npm (direct install):**

@@ -46,7 +46,7 @@ This repository builds a docker image for every release. You can simply run it b
 ```yaml
 services:
   matter-hub:
-    image: ghcr.io/riddix/home-assistant-matter-hub:latest
+    image: matheusdevelope/home-assistant-matter-hub:latest
     restart: unless-stopped
     network_mode: host
     environment: # more options can be found in the configuration section
@@ -81,7 +81,7 @@ docker run -d \
   -v $PWD/home-assistant-matter-hub:/data \
   # required due to restrictions in matter
   --network=host \
-  ghcr.io/riddix/home-assistant-matter-hub:latest
+  matheusdevelope/home-assistant-matter-hub:latest
 ```
 
 See 2.3 for more configuration options.

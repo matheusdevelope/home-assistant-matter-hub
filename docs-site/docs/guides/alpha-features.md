@@ -24,7 +24,7 @@ docker run -d \
   -v /path/to/data:/data \
   -e HAMH_HOME_ASSISTANT_URL=http://homeassistant.local:8123 \
   -e HAMH_HOME_ASSISTANT_ACCESS_TOKEN=your_token \
-  ghcr.io/riddix/home-assistant-matter-hub:alpha
+  matheusdevelope/home-assistant-matter-hub:alpha
 ```
 
 ---

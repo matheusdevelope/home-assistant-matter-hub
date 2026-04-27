@@ -327,7 +327,7 @@ docker run -d \
   -v /path/to/data:/data \
   -e HAMH_HOME_ASSISTANT_URL=http://192.168.178.123:8123 \
   -e HAMH_HOME_ASSISTANT_ACCESS_TOKEN=your_long_lived_access_token \
-  ghcr.io/riddix/home-assistant-matter-hub:latest
+  matheusdevelope/home-assistant-matter-hub:latest
 ```
 
 > **Note:** All environment variables require the `HAMH_` prefix.
@@ -444,7 +444,7 @@ ghcr.io/t0bst4r/home-assistant-matter-hub:latest
 ```
 to:
 ```
-ghcr.io/riddix/home-assistant-matter-hub:latest
+matheusdevelope/home-assistant-matter-hub:latest
 ```
 
 Your volume mounts stay the same - no data migration needed.

@@ -85,7 +85,7 @@ cp -r /path/to/storage /path/to/storage-backup
 docker rm home-assistant-matter-hub
 
 # Pull new image
-docker pull ghcr.io/riddix/home-assistant-matter-hub:latest
+docker pull matheusdevelope/home-assistant-matter-hub:latest
 
 # Start with same configuration
 docker run -d \
@@ -94,7 +94,7 @@ docker run -d \
   -v ~/.home-assistant-matter-hub:/data \
   -e HAMH_HOME_ASSISTANT_URL="http://homeassistant.local:8123" \
   -e HAMH_HOME_ASSISTANT_ACCESS_TOKEN="your-token" \
-  ghcr.io/riddix/home-assistant-matter-hub:latest
+  matheusdevelope/home-assistant-matter-hub:latest
 ```
 
 #### Step 4: Verify
@@ -114,7 +114,7 @@ image: ghcr.io/t0bst4r/home-assistant-matter-hub:latest
 
 To:
 ```yaml
-image: ghcr.io/riddix/home-assistant-matter-hub:latest
+image: matheusdevelope/home-assistant-matter-hub:latest
 ```
 
 #### Step 2: Restart
